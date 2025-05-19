@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Md Sohan Ali</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</head>
+<body>
+  <header data-aos="fade-down">
+    <h1>Md Sohan Ali</h1>
+    <button id="darkModeToggle">🌙</button>
+  </header>
+
+  <section id="hero" data-aos="fade-up">
+    <h2>Welcome to My Creative World</h2>
+    <p>I design stunning visuals that speak louder than words.</p>
+  </section>
+
+  <section id="gallery" data-aos="fade-up">
+    <h2>My Works</h2>
+    <div class="gallery-grid">
+      <img src="images/work1.jpg" alt="Design 1">
+      <img src="images/work2.jpg" alt="Design 2">
+      <img src="images/work3.jpg" alt="Design 3">
+    </div>
+  </section>
+
+  <section id="behance" data-aos="fade-up">
+    <h2>My Behance Portfolio</h2>
+    <iframe src="https://www.behance.net/mdsohanali1613" width="100%" height="600" style="border:none;"></iframe>
+  </section>
+
+  <section id="contact" data-aos="fade-up">
+    <h2>Contact Me</h2>
+    <form id="contactForm">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+    <p id="formResponse"></p>
+  </section>
+
+  <section id="payment" data-aos="fade-up">
+    <h2>Support My Work</h2>
+    <form action="https://www.paypal.com/donate" method="post" target="_blank">
+      <input type="hidden" name="hosted_button_id" value="YOUR_PAYPAL_BUTTON_ID" />
+      <button type="submit">Donate via PayPal</button>
+    </form>
+  </section>
+
+  <footer data-aos="fade-up">
+    <p>&copy; 2025 Md Sohan Ali. All rights reserved.</p>
+  </footer>
+</body>
+</html>
